@@ -1,0 +1,111 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Reservation Page</title>
+    </head>
+
+    <body>
+    
+        <div class="container">
+            
+            <header>
+                    <div class="header-left">
+                        <a href="index.html" class="resort"><h1>Dahican Surf <br> Resort</h1></a>
+                    </div>
+                    
+                    <div class="nav">
+                        <a href="index.html" class="btn uppercase btn-outline-light">Home</a>
+                        <a href="ameneties.html" class="btn uppercase btn-outline-light">Ameneties</a>
+                        <a href="roomrates.html" class="btn uppercase btn-outline-light">Room Rates</a>
+                        <a href="reservations.html" class="btn uppercase btn-outline-light">Reservations</a>
+                    </div>
+            </header>
+
+        </div>
+        
+
+        <div id="reservations-image">
+
+            <div class="page-title">
+                <h1>
+                    Dahican Resort Reservation Form
+                </h1>
+            </div>
+
+            <div class="form-card">
+
+                <form action="#" method="POST">
+
+                    <div class="form-group">
+                        <label for="name"> Name: </label>
+                        <input type="text" id="name" name="name" required placeholder="Write your name..">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email"> Email: </label>
+                        <input type="email" id="email" name="email" placeholder="Write your email address...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact"> Contact No: </label>
+                        <input type="text" id="contact" name="contact" required placeholder="Write your contact number..">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="check-in"> Check-in Date: </label>
+                        <input type="date" id="check-in" name="check-in" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="check-out"> Check-out Date: </label>
+                        <input type="date" id="check-out" name="check-out" required>
+                    </div>
+
+                    <div class="form-group>">
+                        <label for="room-type"> Room Type: </label>
+                        <select id="room-type" name="room-type" required>
+                            <option value="Aircon Room 2 pax"> Aircon Room for 2 pax </option>
+                            <option value="Aircon Room 10 pax"> Aircon Room for 10 pax </option>
+                            <option value="surf Hut 5 pax"> Surf Hut for 5 pax</option>
+                            <option value="surf Hut 10 pax"> Surf Hut for 10 pax</option>
+                            <option value="Big Surf Room"> Big Surf Room</option>
+                            <option value="Tent Rental/Tent Space"> Tent Rental/Tent Space </option>                     
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message"> Message (Optional): </label>
+                        <textarea id="message" name="message" rows="4" placeholder="Write a personalized message.."></textarea>
+                    </div>
+
+                    <button type="submit"> Submit Reservation</button>
+                    <button type="reset"> Clear Form</button>
+        
+                </form>
+
+            </div>
+
+        </div>
+        
+        <footer>
+            <div> 
+                <p>
+                    Copyright &copy; 2024 Dahican Surf Resort<br> 
+                    All Rights Reserved <br>
+                    Contact No: 0977 248 0467 <br>
+                    Facebook Page: <a href="https://web.facebook.com/Dahicansurfresort" target="_blank">
+                        Dahican Surf Resort
+                    </a>
+                </p>
+            </div>
+        </footer>
+
+       
+        
+
+    </body>
+
+</html>
